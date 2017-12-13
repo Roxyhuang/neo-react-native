@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56309091FE11EF600DF0B90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B56309081FE11EF600DF0B90 /* main.m */; };
+		B563090C1FE11EF600DF0B90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B563090B1FE11EF600DF0B90 /* AppDelegate.m */; };
+		B563090F1FE11EF700DF0B90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B563090E1FE11EF600DF0B90 /* ViewController.m */; };
+		B56309121FE11EF700DF0B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56309101FE11EF700DF0B90 /* Main.storyboard */; };
+		B56309141FE11EF700DF0B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56309131FE11EF700DF0B90 /* Assets.xcassets */; };
+		B56309171FE11EF700DF0B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56309151FE11EF700DF0B90 /* LaunchScreen.storyboard */; };
+		B56309221FE11EF700DF0B90 /* NeoReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56309211FE11EF700DF0B90 /* NeoReactNativeTests.m */; };
+		B563092D1FE11EF700DF0B90 /* NeoReactNativeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B563092C1FE11EF700DF0B90 /* NeoReactNativeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B563091E1FE11EF700DF0B90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56308FC1FE11EF600DF0B90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56309031FE11EF600DF0B90;
+			remoteInfo = NeoReactNative;
+		};
+		B56309291FE11EF700DF0B90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56308FC1FE11EF600DF0B90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56309031FE11EF600DF0B90;
+			remoteInfo = NeoReactNative;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B56309041FE11EF600DF0B90 /* NeoReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56309081FE11EF600DF0B90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B563090A1FE11EF600DF0B90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B563090B1FE11EF600DF0B90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B563090D1FE11EF600DF0B90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B563090E1FE11EF600DF0B90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B56309111FE11EF700DF0B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B56309131FE11EF700DF0B90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B56309161FE11EF700DF0B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B56309181FE11EF700DF0B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B563091D1FE11EF700DF0B90 /* NeoReactNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoReactNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56309211FE11EF700DF0B90 /* NeoReactNativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeoReactNativeTests.m; sourceTree = "<group>"; };
+		B56309231FE11EF700DF0B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56309281FE11EF700DF0B90 /* NeoReactNativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoReactNativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B563092C1FE11EF700DF0B90 /* NeoReactNativeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeoReactNativeUITests.m; sourceTree = "<group>"; };
+		B563092E1FE11EF700DF0B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B56309011FE11EF600DF0B90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B563091A1FE11EF700DF0B90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56309251FE11EF700DF0B90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B56308FB1FE11EF600DF0B90 = {
+			isa = PBXGroup;
+			children = (
+				B56309061FE11EF600DF0B90 /* NeoReactNative */,
+				B56309201FE11EF700DF0B90 /* NeoReactNativeTests */,
+				B563092B1FE11EF700DF0B90 /* NeoReactNativeUITests */,
+				B56309051FE11EF600DF0B90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B56309051FE11EF600DF0B90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56309041FE11EF600DF0B90 /* NeoReactNative.app */,
+				B563091D1FE11EF700DF0B90 /* NeoReactNativeTests.xctest */,
+				B56309281FE11EF700DF0B90 /* NeoReactNativeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B56309061FE11EF600DF0B90 /* NeoReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				B563090A1FE11EF600DF0B90 /* AppDelegate.h */,
+				B563090B1FE11EF600DF0B90 /* AppDelegate.m */,
+				B563090D1FE11EF600DF0B90 /* ViewController.h */,
+				B563090E1FE11EF600DF0B90 /* ViewController.m */,
+				B56309101FE11EF700DF0B90 /* Main.storyboard */,
+				B56309131FE11EF700DF0B90 /* Assets.xcassets */,
+				B56309151FE11EF700DF0B90 /* LaunchScreen.storyboard */,
+				B56309181FE11EF700DF0B90 /* Info.plist */,
+				B56309071FE11EF600DF0B90 /* Supporting Files */,
+			);
+			path = NeoReactNative;
+			sourceTree = "<group>";
+		};
+		B56309071FE11EF600DF0B90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B56309081FE11EF600DF0B90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B56309201FE11EF700DF0B90 /* NeoReactNativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B56309211FE11EF700DF0B90 /* NeoReactNativeTests.m */,
+				B56309231FE11EF700DF0B90 /* Info.plist */,
+			);
+			path = NeoReactNativeTests;
+			sourceTree = "<group>";
+		};
+		B563092B1FE11EF700DF0B90 /* NeoReactNativeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B563092C1FE11EF700DF0B90 /* NeoReactNativeUITests.m */,
+				B563092E1FE11EF700DF0B90 /* Info.plist */,
+			);
+			path = NeoReactNativeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B56309031FE11EF600DF0B90 /* NeoReactNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56309311FE11EF700DF0B90 /* Build configuration list for PBXNativeTarget "NeoReactNative" */;
+			buildPhases = (
+				B56309001FE11EF600DF0B90 /* Sources */,
+				B56309011FE11EF600DF0B90 /* Frameworks */,
+				B56309021FE11EF600DF0B90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoReactNative;
+			productName = NeoReactNative;
+			productReference = B56309041FE11EF600DF0B90 /* NeoReactNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B563091C1FE11EF700DF0B90 /* NeoReactNativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56309341FE11EF700DF0B90 /* Build configuration list for PBXNativeTarget "NeoReactNativeTests" */;
+			buildPhases = (
+				B56309191FE11EF700DF0B90 /* Sources */,
+				B563091A1FE11EF700DF0B90 /* Frameworks */,
+				B563091B1FE11EF700DF0B90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B563091F1FE11EF700DF0B90 /* PBXTargetDependency */,
+			);
+			name = NeoReactNativeTests;
+			productName = NeoReactNativeTests;
+			productReference = B563091D1FE11EF700DF0B90 /* NeoReactNativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B56309271FE11EF700DF0B90 /* NeoReactNativeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56309371FE11EF700DF0B90 /* Build configuration list for PBXNativeTarget "NeoReactNativeUITests" */;
+			buildPhases = (
+				B56309241FE11EF700DF0B90 /* Sources */,
+				B56309251FE11EF700DF0B90 /* Frameworks */,
+				B56309261FE11EF700DF0B90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B563092A1FE11EF700DF0B90 /* PBXTargetDependency */,
+			);
+			name = NeoReactNativeUITests;
+			productName = NeoReactNativeUITests;
+			productReference = B56309281FE11EF700DF0B90 /* NeoReactNativeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B56308FC1FE11EF600DF0B90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Neo;
+				TargetAttributes = {
+					B56309031FE11EF600DF0B90 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					B563091C1FE11EF700DF0B90 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B56309031FE11EF600DF0B90;
+					};
+					B56309271FE11EF700DF0B90 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B56309031FE11EF600DF0B90;
+					};
+				};
+			};
+			buildConfigurationList = B56308FF1FE11EF600DF0B90 /* Build configuration list for PBXProject "NeoReactNative" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B56308FB1FE11EF600DF0B90;
+			productRefGroup = B56309051FE11EF600DF0B90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B56309031FE11EF600DF0B90 /* NeoReactNative */,
+				B563091C1FE11EF700DF0B90 /* NeoReactNativeTests */,
+				B56309271FE11EF700DF0B90 /* NeoReactNativeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B56309021FE11EF600DF0B90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56309171FE11EF700DF0B90 /* LaunchScreen.storyboard in Resources */,
+				B56309141FE11EF700DF0B90 /* Assets.xcassets in Resources */,
+				B56309121FE11EF700DF0B90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B563091B1FE11EF700DF0B90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56309261FE11EF700DF0B90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B56309001FE11EF600DF0B90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B563090F1FE11EF700DF0B90 /* ViewController.m in Sources */,
+				B563090C1FE11EF600DF0B90 /* AppDelegate.m in Sources */,
+				B56309091FE11EF600DF0B90 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56309191FE11EF700DF0B90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56309221FE11EF700DF0B90 /* NeoReactNativeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56309241FE11EF700DF0B90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B563092D1FE11EF700DF0B90 /* NeoReactNativeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B563091F1FE11EF700DF0B90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56309031FE11EF600DF0B90 /* NeoReactNative */;
+			targetProxy = B563091E1FE11EF700DF0B90 /* PBXContainerItemProxy */;
+		};
+		B563092A1FE11EF700DF0B90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56309031FE11EF600DF0B90 /* NeoReactNative */;
+			targetProxy = B56309291FE11EF700DF0B90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B56309101FE11EF700DF0B90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56309111FE11EF700DF0B90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B56309151FE11EF700DF0B90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56309161FE11EF700DF0B90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B563092F1FE11EF700DF0B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B56309301FE11EF700DF0B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B56309321FE11EF700DF0B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeoReactNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huang.NeoReactNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B56309331FE11EF700DF0B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeoReactNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huang.NeoReactNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B56309351FE11EF700DF0B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeoReactNativeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huang.NeoReactNativeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoReactNative.app/NeoReactNative";
+			};
+			name = Debug;
+		};
+		B56309361FE11EF700DF0B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeoReactNativeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huang.NeoReactNativeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoReactNative.app/NeoReactNative";
+			};
+			name = Release;
+		};
+		B56309381FE11EF700DF0B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeoReactNativeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huang.NeoReactNativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NeoReactNative;
+			};
+			name = Debug;
+		};
+		B56309391FE11EF700DF0B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeoReactNativeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huang.NeoReactNativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NeoReactNative;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B56308FF1FE11EF600DF0B90 /* Build configuration list for PBXProject "NeoReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B563092F1FE11EF700DF0B90 /* Debug */,
+				B56309301FE11EF700DF0B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56309311FE11EF700DF0B90 /* Build configuration list for PBXNativeTarget "NeoReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56309321FE11EF700DF0B90 /* Debug */,
+				B56309331FE11EF700DF0B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B56309341FE11EF700DF0B90 /* Build configuration list for PBXNativeTarget "NeoReactNativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56309351FE11EF700DF0B90 /* Debug */,
+				B56309361FE11EF700DF0B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B56309371FE11EF700DF0B90 /* Build configuration list for PBXNativeTarget "NeoReactNativeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56309381FE11EF700DF0B90 /* Debug */,
+				B56309391FE11EF700DF0B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B56308FC1FE11EF600DF0B90 /* Project object */;
+}
