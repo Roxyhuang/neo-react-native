@@ -44,5 +44,4 @@ const styles = StyleSheet.create({
   },
 });
 
-//  项目名要有所对应
 AppRegistry.registerComponent('NativeRNApp', () => NativeRNApp);
