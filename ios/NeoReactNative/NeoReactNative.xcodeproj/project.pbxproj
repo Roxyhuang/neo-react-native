@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0302D496287D6764BBA0C93E /* libPods-NeoReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4860E4356BA61617507A1E2 /* libPods-NeoReactNative.a */; };
-		13CC24F8E294EE5741D985E6 /* libPods-NeoReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2919468C29A7D6040F85AFA6 /* libPods-NeoReactNativeTests.a */; };
 		B56309091FE11EF600DF0B90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B56309081FE11EF600DF0B90 /* main.m */; };
 		B563090C1FE11EF600DF0B90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B563090B1FE11EF600DF0B90 /* AppDelegate.m */; };
 		B563090F1FE11EF700DF0B90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B563090E1FE11EF600DF0B90 /* ViewController.m */; };
@@ -17,7 +16,6 @@
 		B56309171FE11EF700DF0B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56309151FE11EF700DF0B90 /* LaunchScreen.storyboard */; };
 		B56309221FE11EF700DF0B90 /* NeoReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56309211FE11EF700DF0B90 /* NeoReactNativeTests.m */; };
 		B563092D1FE11EF700DF0B90 /* NeoReactNativeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B563092C1FE11EF700DF0B90 /* NeoReactNativeUITests.m */; };
-		BD969B6C85CE8725D0CE41CB /* libPods-NeoReactNativeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F56B72AC2B9B5F31F801447 /* libPods-NeoReactNativeUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E396B200FDB7B40DC8F377 /* Pods-NeoReactNativeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoReactNativeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeoReactNativeUITests/Pods-NeoReactNativeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2919468C29A7D6040F85AFA6 /* libPods-NeoReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NeoReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F56B72AC2B9B5F31F801447 /* libPods-NeoReactNativeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NeoReactNativeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		753AEF2E32FE7B6D38749E8F /* Pods-NeoReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoReactNative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeoReactNative/Pods-NeoReactNative.debug.xcconfig"; sourceTree = "<group>"; };
 		9489405A6CDE887587EAF546 /* Pods-NeoReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoReactNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeoReactNative/Pods-NeoReactNative.release.xcconfig"; sourceTree = "<group>"; };
-		9742B1EB5EE5BD5FF5618171 /* Pods-NeoReactNativeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoReactNativeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeoReactNativeUITests/Pods-NeoReactNativeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B56309041FE11EF600DF0B90 /* NeoReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56309081FE11EF600DF0B90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B563090A1FE11EF600DF0B90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,8 +57,6 @@
 		B563092C1FE11EF700DF0B90 /* NeoReactNativeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeoReactNativeUITests.m; sourceTree = "<group>"; };
 		B563092E1FE11EF700DF0B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4860E4356BA61617507A1E2 /* libPods-NeoReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NeoReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6ADDF310CB6CDC9270AE434 /* Pods-NeoReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoReactNativeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeoReactNativeTests/Pods-NeoReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F858131E4C2235024FFA9103 /* Pods-NeoReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoReactNativeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeoReactNativeTests/Pods-NeoReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13CC24F8E294EE5741D985E6 /* libPods-NeoReactNativeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD969B6C85CE8725D0CE41CB /* libPods-NeoReactNativeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,10 +100,6 @@
 			children = (
 				753AEF2E32FE7B6D38749E8F /* Pods-NeoReactNative.debug.xcconfig */,
 				9489405A6CDE887587EAF546 /* Pods-NeoReactNative.release.xcconfig */,
-				F6ADDF310CB6CDC9270AE434 /* Pods-NeoReactNativeTests.debug.xcconfig */,
-				F858131E4C2235024FFA9103 /* Pods-NeoReactNativeTests.release.xcconfig */,
-				9742B1EB5EE5BD5FF5618171 /* Pods-NeoReactNativeUITests.debug.xcconfig */,
-				00E396B200FDB7B40DC8F377 /* Pods-NeoReactNativeUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -207,12 +195,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B56309341FE11EF700DF0B90 /* Build configuration list for PBXNativeTarget "NeoReactNativeTests" */;
 			buildPhases = (
-				871E9DF1F41981310BE9E6E8 /* [CP] Check Pods Manifest.lock */,
 				B56309191FE11EF700DF0B90 /* Sources */,
 				B563091A1FE11EF700DF0B90 /* Frameworks */,
 				B563091B1FE11EF700DF0B90 /* Resources */,
-				7AE59146E7B37A3A16B585DE /* [CP] Embed Pods Frameworks */,
-				4725C44AA4346E6C99E63A2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,12 +213,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B56309371FE11EF700DF0B90 /* Build configuration list for PBXNativeTarget "NeoReactNativeUITests" */;
 			buildPhases = (
-				F61DD321A05F90CF32062371 /* [CP] Check Pods Manifest.lock */,
 				B56309241FE11EF700DF0B90 /* Sources */,
 				B56309251FE11EF700DF0B90 /* Frameworks */,
 				B56309261FE11EF700DF0B90 /* Resources */,
-				EF3D4CB01FB6CF4BF65D1B30 /* [CP] Embed Pods Frameworks */,
-				C80A28B7186AD50951E13F8F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -318,54 +300,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4725C44AA4346E6C99E63A2A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeoReactNativeTests/Pods-NeoReactNativeTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7AE59146E7B37A3A16B585DE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeoReactNativeTests/Pods-NeoReactNativeTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		871E9DF1F41981310BE9E6E8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NeoReactNativeTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B80C76980643B9E5FFF57045 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,21 +315,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeoReactNative/Pods-NeoReactNative-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C80A28B7186AD50951E13F8F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeoReactNativeUITests/Pods-NeoReactNativeUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DA8907D0CF7F4646CA371252 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,39 +328,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeoReactNative/Pods-NeoReactNative-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EF3D4CB01FB6CF4BF65D1B30 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeoReactNativeUITests/Pods-NeoReactNativeUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F61DD321A05F90CF32062371 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NeoReactNativeUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F9866BC85EE7AF1EF7C8A358 /* [CP] Check Pods Manifest.lock */ = {
@@ -642,7 +528,6 @@
 		};
 		B56309351FE11EF700DF0B90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6ADDF310CB6CDC9270AE434 /* Pods-NeoReactNativeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NeoReactNativeTests/Info.plist;
@@ -655,7 +540,6 @@
 		};
 		B56309361FE11EF700DF0B90 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F858131E4C2235024FFA9103 /* Pods-NeoReactNativeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NeoReactNativeTests/Info.plist;
@@ -668,7 +552,6 @@
 		};
 		B56309381FE11EF700DF0B90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9742B1EB5EE5BD5FF5618171 /* Pods-NeoReactNativeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = NeoReactNativeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -680,7 +563,6 @@
 		};
 		B56309391FE11EF700DF0B90 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00E396B200FDB7B40DC8F377 /* Pods-NeoReactNativeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = NeoReactNativeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -709,6 +591,7 @@
 				B56309331FE11EF700DF0B90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B56309341FE11EF700DF0B90 /* Build configuration list for PBXNativeTarget "NeoReactNativeTests" */ = {
 			isa = XCConfigurationList;
@@ -717,6 +600,7 @@
 				B56309361FE11EF700DF0B90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B56309371FE11EF700DF0B90 /* Build configuration list for PBXNativeTarget "NeoReactNativeUITests" */ = {
 			isa = XCConfigurationList;
@@ -725,6 +609,7 @@
 				B56309391FE11EF700DF0B90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

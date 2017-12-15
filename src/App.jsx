@@ -35,18 +35,19 @@ class App extends Component {
   // }
 
   render() {
-    if (this.state.showDownloadingModal) {
-      return (
-        <Container>
-          <Content style={styles.container}>
-            <Text>123</Text>
-          </Content>
-        </Container>
-      );
-    }
-
-    return <MainStackRouter />;
+    console.log(this);
+    // if (this.state.showDownloadingModal) {
+    return (
+      <Container>
+        <Content style={styles.container}>
+          <Text>123</Text>
+        </Content>
+      </Container>
+    );
   }
+
+  // return <MainStackRouter />;
+  // }
 }
 
 export default App;
