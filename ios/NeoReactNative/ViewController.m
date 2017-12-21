@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSString * strUrl = @"http://localhost:8081/index.ios.bundle?platform=ios&dev=true";
+    NSString * strUrl = @"http://localhost:8081/bill.ios.bundle?platform=ios&dev=true";
     NSURL * jsCodeLocation = [NSURL URLWithString:strUrl];
     
     RCTRootView * rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation

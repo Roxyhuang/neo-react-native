@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 // import CodePush from 'react-native-code-push';
 // import MainStackRouter from './Routers/MainStackRouter';
-import { Container, Content, Text } from 'native-base';
+// import { Container, Content, Text } from 'native-base';
 // import Modal from 'react-native-modalbox';
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    width: null,
-    height: null,
-  },
-  modal: {
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  modal1: {
-    height: 300,
-  },
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     width: null,
+//     height: null,
+//   },
+//   modal: {
+//     justifyContent: 'center',
+//     alignItems: 'center',
+//   },
+//   modal1: {
+//     height: 300,
+//   },
+// });
 
 class App extends Component {
   constructor(props) {
@@ -35,14 +35,11 @@ class App extends Component {
   // }
 
   render() {
-    console.log(this);
     // if (this.state.showDownloadingModal) {
     return (
-      <Container>
-        <Content style={styles.container}>
+        <View>
           <Text>123</Text>
-        </Content>
-      </Container>
+        </View>
     );
   }
 
