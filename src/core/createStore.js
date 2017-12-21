@@ -5,7 +5,7 @@ import createEngine from 'redux-storage-engine-reactnativeasyncstorage';
 import createSagaMiddleware from 'redux-saga';
 import devTools from 'remote-redux-devtools';
 
-import reducers from '../reducers';
+import reducers from './reducers/index';
 import sagas from '../effects';
 
 const isDebuggingInChrome = __DEV__ && !!window.navigator.userAgent;

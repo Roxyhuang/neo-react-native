@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import home from './home';
+import home from './homeReducer';
 // import entities from './entities'
 
-export default combineReducers({
+const rootReducer = combineReducers({
   home,
-  // entities,
 });
+
+export default rootReducer;
+
