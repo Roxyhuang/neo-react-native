@@ -6,7 +6,7 @@ import createSagaMiddleware from 'redux-saga';
 import devTools from 'remote-redux-devtools';
 
 import reducers from './reducers/index';
-import sagas from '../effects';
+import sagas from './effects';
 
 const isDebuggingInChrome = __DEV__ && !!window.navigator.userAgent;
 
@@ -24,7 +24,7 @@ export default function configureStore(onComplete) {
   const sagaMiddleware = createSagaMiddleware();
 
   const store = createStore(
-      // storage.reducer(reducers), // Apply redux-storage so we can persist Redux state to disk
+      storage.reducer(reducers), // Apply redux-storage so we can persist Redux state to disk
       compose(
           applyMiddleware(
               sagaMiddleware,
@@ -48,3 +48,4 @@ export default function configureStore(onComplete) {
 
   return store;
 }
+
