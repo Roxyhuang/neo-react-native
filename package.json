@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node_modules/react-native/packager/packager.sh",
+    "start": "node node_modules/react-native/local-cli/cli.js start --platforms android",
     "eslint": "eslint",
     "test": "jest"
   },
@@ -13,8 +13,8 @@
     "lodash": "^4.13.1",
     "moment": "^2.13.0",
     "native-base": "2.1.4",
-    "react": "16.0.0-alpha.12",
-    "react-native": "0.50.3",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
     "react-native-code-push": "2.0.1-beta",
     "react-native-easy-grid": "0.1.8",
     "react-native-modalbox": "^1.3.4",
