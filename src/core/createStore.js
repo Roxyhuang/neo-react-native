@@ -1,5 +1,5 @@
 import { createStore, applyMiddleware, compose } from 'redux';
-import createLogger from 'redux-logger';
+// import createLogger from 'redux-logger';
 import * as storage from 'redux-storage';
 import createEngine from 'redux-storage-engine-reactnativeasyncstorage';
 import createSagaMiddleware from 'redux-saga';
@@ -10,12 +10,12 @@ import sagas from './effects';
 
 const isDebuggingInChrome = __DEV__ && !!window.navigator.userAgent;
 
-const logger = createLogger({
-  predicate: (getState, action) => isDebuggingInChrome,
-  collapsed: true,
-  duration: true,
-  diff: true,
-});
+// const logger = createLogger({
+//   predicate: (getState, action) => isDebuggingInChrome,
+//   collapsed: true,
+//   duration: true,
+//   diff: true,
+// });
 
 export default function configureStore(onComplete) {
 
@@ -29,7 +29,7 @@ export default function configureStore(onComplete) {
           applyMiddleware(
               sagaMiddleware,
               storeMiddleware,
-              logger,
+              // logger,
           ),
           devTools(),
       ),
@@ -45,7 +45,6 @@ export default function configureStore(onComplete) {
   //     .catch(() => console.log('Failed to load previous state'));
 
   sagaMiddleware.run(sagas);
-
   return store;
 }
 

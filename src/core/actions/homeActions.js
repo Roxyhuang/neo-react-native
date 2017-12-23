@@ -1,14 +1,25 @@
-import { INCREMENT } from './actionTypes';
+import * as types from './actionTypes';
 
-export default function counter(state = 0, action) {
-  switch (action.type) {
-    case INCREMENT:
-      return state + 1;
-    case 'INCREMENT_IF_ODD':
-      return (state % 2 !== 0) ? state + 1 : state;
-    case 'DECREMENT':
-      return state - 1;
-    default:
-      return state;
-  }
+export function increment() {
+  return {
+    type: types.INCREMENT,
+  };
 }
+
+export function decrement() {
+  return {
+    type: types.DECREMENT,
+  };
+}
+
+// function requestLogin(username, password) {
+//   return dispatch => {
+//     dispatch(loginStarted());
+//     return fetch('/login', {username, password})
+//         .then(response => response.json())
+//         .then(data => {
+//           dispatch(receiveUserData(data));
+//           dispatch(loginEnded());
+//         });
+//   }
+// }

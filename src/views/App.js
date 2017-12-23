@@ -1,5 +1,14 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
+import { connect } from 'react-redux';
+
+const mapStateToProps = function(state) {
+  const { home } = state;
+  console.log(state);
+  return {
+    home,
+  }
+};
 // import CodePush from 'react-native-code-push';
 // import MainStackRouter from './Routers/MainStackRouter';
 // import { Container, Content, Text } from 'native-base';
@@ -47,4 +56,4 @@ class App extends Component {
   // }
 }
 
-export default App;
+export default connect(mapStateToProps)(App);
