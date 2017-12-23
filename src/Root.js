@@ -14,7 +14,6 @@ export default class Root extends Component {
   }
 
   render() {
-    console.log(this.state.store)
     // if (this.state.isLoading) {
     //   return null;
     // }

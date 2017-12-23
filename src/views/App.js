@@ -4,10 +4,10 @@ import { connect } from 'react-redux';
 
 const mapStateToProps = function(state) {
   const { home } = state;
-  console.log(state);
+  console.log(home);
   return {
     home,
-  }
+  };
 };
 // import CodePush from 'react-native-code-push';
 // import MainStackRouter from './Routers/MainStackRouter';
