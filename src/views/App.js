@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
+import * as homeActions from '../core/actions/homeActions';
 import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 
 const mapStateToProps = function(state) {
   const { home } = state;
-  console.log(home);
   return {
     home,
   };
 };
+
+const mapDispatchToProps = dispatch => ({
+  actions: bindActionCreators(
+      { ...homeActions }, dispatch),
+});
+
 // import CodePush from 'react-native-code-push';
 // import MainStackRouter from './Routers/MainStackRouter';
 // import { Container, Content, Text } from 'native-base';
@@ -39,9 +46,9 @@ class App extends Component {
     };
   }
 
-  // componentDidMount() {
-  //   // TODO
-  // }
+  componentDidMount() {
+   console.log(this.props.actions.increment);
+  }
 
   render() {
     // if (this.state.showDownloadingModal) {
@@ -56,4 +63,4 @@ class App extends Component {
   // }
 }
 
-export default connect(mapStateToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);
