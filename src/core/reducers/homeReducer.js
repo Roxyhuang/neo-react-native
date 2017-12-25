@@ -6,9 +6,9 @@ const initialState = new InitialState();
 export default function counter(state = initialState, action) {
   switch (action.type) {
     case types.INCREMENT:
-      return state.set('home', 6);
+      return state.set('home', state.home + 1);
     case types.DECREMENT:
-      return state - 1;
+      return state.set('home', state.home - 1);
     default:
       return state;
   }
