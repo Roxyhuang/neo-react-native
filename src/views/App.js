@@ -56,6 +56,9 @@ class App extends Component {
   onPressDe() {
     this.props.actions.decrement();
   }
+  onPressInAsync() {
+    this.props.actions.incrementAsync();
+  }
   render() {
     // if (this.state.showDownloadingModal) {
     return (
@@ -70,6 +73,12 @@ class App extends Component {
           <Button
               onPress={() => { this.onPressDe() }}
               title="decrement"
+              color="#841584"
+              accessibilityLabel="Learn more about this purple button"
+          />
+          <Button
+              onPress={() => { this.onPressInAsync() }}
+              title="incrementAsync"
               color="#841584"
               accessibilityLabel="Learn more about this purple button"
           />

@@ -12,6 +12,12 @@ export function decrement() {
   };
 }
 
+export function incrementAsync() {
+  return {
+    type: types.INCREMENT_ASYNC,
+  };
+}
+
 // function requestLogin(username, password) {
 //   return dispatch => {
 //     dispatch(loginStarted());
