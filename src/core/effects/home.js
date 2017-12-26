@@ -5,20 +5,22 @@ import { INCREMENT, INCREMENT_ASYNC } from '../../core/actions/actionTypes';
 // import { LOAD } from 'redux-storage';
 // import { getUser } from '../reducers/selectors';
 
-export const delay = ms => new Promise((resolve, reject) => {
-  if (ms === 1000) {
+export const delay1 = ms => new Promise((resolve, reject) => {
+  if (ms === 3000) {
     resolve('成功');
   } else {
     reject(new Error('not'));
   }
 });
 
+export const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
 function* incrementAsync() {
   // while(true) {
   try {
     yield call(delay, 1000);
     yield put({ type: INCREMENT });
-  } catch (e){
+  } catch (e) {
     console.log(e);
   }
   // }
