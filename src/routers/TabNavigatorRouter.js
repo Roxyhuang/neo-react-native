@@ -1,10 +1,8 @@
-import { StackNavigator } from 'react-navigation';
+import { TabNavigator } from 'react-navigation';
 // import Login from '../components/login/';
 import HomeScreen from '../containers/HomeScreen';
 import IndexScreen from '../containers/IndexScreen';
 import ReduxScreen from '../containers/ReduxScreen';
-import HeaderScreen from '../containers/HeaderScreen';
-import TabNavigatorRouter from './TabNavigatorRouter';
 // import BlankPage from '../components/blankPage';
 // import HomeDrawerRouter from './HomeDrawerRouter';
 
@@ -12,26 +10,14 @@ import TabNavigatorRouter from './TabNavigatorRouter';
 //   header: null,
 // });
 
-const MainStackRouter = StackNavigator({
+const TabNavigatorRouter = TabNavigator({
   Home: {
     screen: HomeScreen,
-  },
-  Index: {
-    screen: IndexScreen,
   },
   Redux: {
     screen: ReduxScreen,
   },
-  Nest: {
-    screen: TabNavigatorRouter,
-    navigationOptions: {
-      title: 'Nesting title',
-    },
-  },
-  Header: {
-    screen: HeaderScreen,
-  },
 });
 
 
-export default MainStackRouter;
+export default TabNavigatorRouter;

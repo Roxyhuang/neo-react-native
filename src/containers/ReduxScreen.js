@@ -17,6 +17,9 @@ const mapDispatchToProps = dispatch => ({
 });
 
 class ReduxScreen extends Component {
+  static navigationOptions = {
+    title: 'Redux',
+  };
   constructor(props) {
     super(props);
     this.state = {

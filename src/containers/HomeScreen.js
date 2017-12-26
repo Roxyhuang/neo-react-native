@@ -3,7 +3,7 @@ import {StyleSheet, View, Text, Button} from 'react-native';
 
 class HomeScreen extends React.Component {
   static navigationOptions = {
-    title: 'WelcomeHome',
+    title: 'Home',
   };
   constructor(props) {
     super(props);
@@ -25,13 +25,25 @@ class HomeScreen extends React.Component {
         <Text>Home</Text>
         <Button
           onPress={() => navigate('Index', { user: 'Lucy' })}
-          title="linkToIndex"
+          title="StackWithCallback"
           color="#841584"
           accessibilityLabel="Learn more about this purple button"
         />
         <Button
             onPress={() => navigate('Redux')}
-            title="linkToRedux"
+            title="Redux"
+            color="#841584"
+            accessibilityLabel="Learn more about this purple button"
+        />
+        <Button
+            onPress={() => navigate('Nest')}
+            title="Nest"
+            color="#841584"
+            accessibilityLabel="Learn more about this purple button"
+        />
+        <Button
+            onPress={() => navigate('Header', { user: 'Lucy', mode: 'info' })}
+            title="Header"
             color="#841584"
             accessibilityLabel="Learn more about this purple button"
         />
