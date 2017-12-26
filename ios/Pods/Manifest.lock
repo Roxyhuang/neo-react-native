@@ -20,35 +20,40 @@ PODS:
     - DoubleConversion
     - GLog
   - GLog (0.3.4)
-  - React/Core (0.50.3):
-    - yoga (= 0.50.3.React)
-  - React/CxxBridge (0.50.3):
+  - React/Core (0.51.0):
+    - yoga (= 0.51.0.React)
+  - React/CxxBridge (0.51.0):
     - Folly (= 2016.09.26.00)
     - React/Core
     - React/cxxreact
-  - React/cxxreact (0.50.3):
+  - React/cxxreact (0.51.0):
     - boost
     - Folly (= 2016.09.26.00)
     - React/jschelpers
-  - React/DevSupport (0.50.3):
+  - React/DevSupport (0.51.0):
     - React/Core
     - React/RCTWebSocket
-  - React/fishhook (0.50.3)
-  - React/jschelpers (0.50.3):
+  - React/fishhook (0.51.0)
+  - React/jschelpers (0.51.0):
     - Folly (= 2016.09.26.00)
     - React/PrivateDatabase
-  - React/PrivateDatabase (0.50.3)
-  - React/RCTBlob (0.50.3):
+  - React/PrivateDatabase (0.51.0)
+  - React/RCTBlob (0.51.0):
     - React/Core
-  - React/RCTNetwork (0.50.3):
+  - React/RCTImage (0.51.0):
     - React/Core
-  - React/RCTText (0.50.3):
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.51.0):
     - React/Core
-  - React/RCTWebSocket (0.50.3):
+  - React/RCTNetwork (0.51.0):
+    - React/Core
+  - React/RCTText (0.51.0):
+    - React/Core
+  - React/RCTWebSocket (0.51.0):
     - React/Core
     - React/fishhook
     - React/RCTBlob
-  - yoga (0.50.3.React)
+  - yoga (0.51.0.React)
 
 DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
@@ -57,6 +62,8 @@ DEPENDENCIES:
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
   - React/RCTNetwork (from `../node_modules/react-native`)
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
@@ -79,9 +86,9 @@ SPEC CHECKSUMS:
   DoubleConversion: ebb6747c5b66026ad4f97b789c3ceac6f18e57a6
   Folly: b7255b29f1d693c375d642d0f04f0592181156d9
   GLog: 3e4e4ae9746ce6bf6e9420c7fc1e08ad59c8ba1a
-  React: 0ba6cae888dc82dc47d6d5f3090615e1b5f6f3e7
-  yoga: faecc6be81ca7823ccbb470b93a1b228499fa1c0
+  React: 352f02f1db6e4744f9a758527e13e3fdefbbd6ba
+  yoga: b5d96400ca8b2936965a7a6516da7c1177f432a3
 
-PODFILE CHECKSUM: bfe810334a9c2f35fc0dabc6a586cf2f7d0acb6f
+PODFILE CHECKSUM: 07c8f28bbd18b21d46c7af87bba0670bc5459bcd
 
 COCOAPODS: 1.3.1

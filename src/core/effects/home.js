@@ -28,5 +28,5 @@ function* incrementAsync() {
 
 // Bootstrap Functions App
 export default function* root() {
-  yield* takeEvery(INCREMENT_ASYNC, incrementAsync)
+  yield* takeEvery(INCREMENT_ASYNC, incrementAsync);
 }

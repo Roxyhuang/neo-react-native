@@ -1,9 +1,9 @@
 import React from 'react';
 import {StyleSheet, View, Text, Button} from 'react-native';
 
-class HomeScreen extends React.Component {
+class IndexScreen extends React.Component {
   static navigationOptions = {
-    title: 'WelcomeHome',
+    title: 'WelcomeIndex',
   };
   constructor(props) {
     super(props);
@@ -19,20 +19,13 @@ class HomeScreen extends React.Component {
   }
 
   render() {
-    const { navigate } = this.props.navigation;
     return (
-      <View>
-        <Text>Home</Text>
-        <Button
-          onPress={() => navigate('Index')}
-          title="linkToIndex"
-          color="#841584"
-          accessibilityLabel="Learn more about this purple button"
-        />
-      </View>
+        <View>
+          <Text>Index</Text>
+        </View>
     );
   }
 }
 
-export default HomeScreen;
+export default IndexScreen;
 

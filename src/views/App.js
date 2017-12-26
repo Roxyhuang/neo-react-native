@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text,Button } from 'react-native';
-import * as homeActions from '../core/actions/homeActions';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import * as homeActions from '../core/actions/homeActions';
+import MainStackRouter from '../routers/MainStackRouter';
+
+console.log(MainStackRouter);
 
 const mapStateToProps = function(state) {
   const { home } = state;
@@ -17,7 +20,6 @@ const mapDispatchToProps = dispatch => ({
 });
 
 // import CodePush from 'react-native-code-push';
-// import MainStackRouter from './Routers/MainStackRouter';
 // import { Container, Content, Text } from 'native-base';
 // import Modal from 'react-native-modalbox';
 
@@ -60,34 +62,31 @@ class App extends Component {
     this.props.actions.incrementAsync();
   }
   render() {
-    // if (this.state.showDownloadingModal) {
-    return (
-        <View>
-          <Text>{this.props.home.home}</Text>
-          <Button
-              onPress={() => { this.onPressIn() }}
-              title="increment"
-              color="#841584"
-              accessibilityLabel="Learn more about this purple button"
-          />
-          <Button
-              onPress={() => { this.onPressDe() }}
-              title="decrement"
-              color="#841584"
-              accessibilityLabel="Learn more about this purple button"
-          />
-          <Button
-              onPress={() => { this.onPressInAsync() }}
-              title="incrementAsync"
-              color="#841584"
-              accessibilityLabel="Learn more about this purple button"
-          />
-        </View>
-    );
+    // return (
+    //     <View>
+    //       <Text>{this.props.home.home}</Text>
+    //       <Button
+    //           onPress={() => { this.onPressIn() }}
+    //           title="increment"
+    //           color="#841584"
+    //           accessibilityLabel="Learn more about this purple button"
+    //       />
+    //       <Button
+    //           onPress={() => { this.onPressDe() }}
+    //           title="decrement"
+    //           color="#841584"
+    //           accessibilityLabel="Learn more about this purple button"
+    //       />
+    //       <Button
+    //           onPress={() => { this.onPressInAsync() }}
+    //           title="incrementAsync"
+    //           color="#841584"
+    //           accessibilityLabel="Learn more about this purple button"
+    //       />
+    //     </View>
+    // );
+    return <MainStackRouter />;
   }
-
-  // return <MainStackRouter />;
-  // }
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
