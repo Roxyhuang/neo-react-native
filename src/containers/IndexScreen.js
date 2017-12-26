@@ -2,9 +2,10 @@ import React from 'react';
 import {StyleSheet, View, Text, Button} from 'react-native';
 
 class IndexScreen extends React.Component {
-  static navigationOptions = {
-    title: 'WelcomeIndex',
-  };
+  static navigationOptions = ({ navigation }) => ({
+    title: `Chat with ${navigation.state.params.user}`,
+  });
+
   constructor(props) {
     super(props);
     this.state = {
@@ -19,9 +20,11 @@ class IndexScreen extends React.Component {
   }
 
   render() {
+    const { params } = this.props.navigation.state;
     return (
         <View>
           <Text>Index</Text>
+          <Text>Chat with {params.user}</Text>
         </View>
     );
   }

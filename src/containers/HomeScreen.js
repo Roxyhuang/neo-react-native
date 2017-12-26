@@ -24,10 +24,16 @@ class HomeScreen extends React.Component {
       <View>
         <Text>Home</Text>
         <Button
-          onPress={() => navigate('Index')}
+          onPress={() => navigate('Index', { user: 'Lucy' })}
           title="linkToIndex"
           color="#841584"
           accessibilityLabel="Learn more about this purple button"
+        />
+        <Button
+            onPress={() => navigate('Redux')}
+            title="linkToRedux"
+            color="#841584"
+            accessibilityLabel="Learn more about this purple button"
         />
       </View>
     );
