@@ -47,6 +47,12 @@ class HomeScreen extends React.Component {
             color="#841584"
             accessibilityLabel="Learn more about this purple button"
         />
+        <Button
+            onPress={() => navigate('Edit')}
+            title="Edit"
+            color="#841584"
+            accessibilityLabel="Learn more about this purple button"
+        />
       </View>
     );
   }

@@ -17,6 +17,16 @@ const TabNavigatorRouter = TabNavigator({
   Redux: {
     screen: ReduxScreen,
   },
+}, {
+  tabBarPosition: 'top',
+  tabBarOptions: {
+    labelStyle: {
+      fontSize: 16,
+    },
+    tabStyle: {
+      width: 100,
+    },
+  },
 });
 
 

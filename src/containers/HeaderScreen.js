@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, View, Text, Button} from 'react-native';
+import { StyleSheet, View, Text, Button } from 'react-native';
 
 class HeaderScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
@@ -9,10 +9,10 @@ class HeaderScreen extends React.Component {
     return {
       title: isInfo ? `${user}'s Contact Info` : `Chat with ${state.params.user}`,
       headerRight: (
-          <Button
-              title={isInfo ? 'Done' : `${user}'s info`}
-              onPress={() => setParams({ mode: isInfo ? 'none' : 'info' })}
-          />
+        <Button
+          title={isInfo ? 'Done' : `${user}'s info`}
+          onPress={() => setParams({ mode: isInfo ? 'none' : 'info' })}
+        />
       ),
     };
   };
