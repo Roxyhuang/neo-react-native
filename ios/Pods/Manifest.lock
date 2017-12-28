@@ -38,6 +38,8 @@ PODS:
     - Folly (= 2016.09.26.00)
     - React/PrivateDatabase
   - React/PrivateDatabase (0.51.0)
+  - React/RCTAnimation (0.51.0):
+    - React/Core
   - React/RCTBlob (0.51.0):
     - React/Core
   - React/RCTImage (0.51.0):
@@ -62,6 +64,7 @@ DEPENDENCIES:
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
   - React/RCTImage (from `../node_modules/react-native`)
   - React/RCTLinkingIOS (from `../node_modules/react-native`)
   - React/RCTNetwork (from `../node_modules/react-native`)
@@ -89,6 +92,6 @@ SPEC CHECKSUMS:
   React: 352f02f1db6e4744f9a758527e13e3fdefbbd6ba
   yoga: b5d96400ca8b2936965a7a6516da7c1177f432a3
 
-PODFILE CHECKSUM: 07c8f28bbd18b21d46c7af87bba0670bc5459bcd
+PODFILE CHECKSUM: 1cb3a3c6658d1ad613db8751a2a2edfed116f359
 
 COCOAPODS: 1.3.1

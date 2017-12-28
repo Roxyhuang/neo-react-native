@@ -6,6 +6,7 @@ import ReduxScreen from '../containers/ReduxScreen';
 import HeaderScreen from '../containers/HeaderScreen';
 import EditScreen from '../containers/EditScreen';
 import TabNavigatorRouter from './TabNavigatorRouter';
+import DrawerNavigatorRouter from './DrawerNavigatorRouter';
 // import BlankPage from '../components/blankPage';
 // import HomeDrawerRouter from './HomeDrawerRouter';
 
@@ -34,6 +35,12 @@ const MainStackRouter = StackNavigator({
   },
   Edit: {
     screen: EditScreen,
+  },
+  Draw: {
+    screen: DrawerNavigatorRouter,
+    navigationOptions: {
+      header: null,
+    },
   },
 });
 

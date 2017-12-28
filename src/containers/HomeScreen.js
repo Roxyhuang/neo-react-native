@@ -2,8 +2,10 @@ import React from 'react';
 import {StyleSheet, View, Text, Button} from 'react-native';
 
 class HomeScreen extends React.Component {
-  static navigationOptions = {
-    title: 'Home',
+  static navigationOptions = ({ navigation }) => {
+    console.log(navigation);
+    const title = 'Home';
+    return { title };
   };
   constructor(props) {
     super(props);
@@ -50,6 +52,12 @@ class HomeScreen extends React.Component {
         <Button
             onPress={() => navigate('Edit')}
             title="Edit"
+            color="#841584"
+            accessibilityLabel="Learn more about this purple button"
+        />
+        <Button
+            onPress={() => navigate('Draw')}
+            title="Draw"
             color="#841584"
             accessibilityLabel="Learn more about this purple button"
         />
