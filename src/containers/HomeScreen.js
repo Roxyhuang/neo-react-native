@@ -22,6 +22,7 @@ class HomeScreen extends React.Component {
 
   render() {
     const { navigate } = this.props.navigation;
+    console.log(this.props.navigation.state);
     return (
       <View>
         <Text>Home</Text>
@@ -56,8 +57,8 @@ class HomeScreen extends React.Component {
             accessibilityLabel="Learn more about this purple button"
         />
         <Button
-            onPress={() => navigate('Draw')}
-            title="Draw"
+            onPress={() => navigate('NavOption')}
+            title="NavOption"
             color="#841584"
             accessibilityLabel="Learn more about this purple button"
         />

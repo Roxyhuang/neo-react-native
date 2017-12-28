@@ -5,6 +5,7 @@ import IndexScreen from '../containers/IndexScreen';
 import ReduxScreen from '../containers/ReduxScreen';
 import HeaderScreen from '../containers/HeaderScreen';
 import EditScreen from '../containers/EditScreen';
+import NavOptionScreen from '../containers/NavOptionScreen';
 import TabNavigatorRouter from './TabNavigatorRouter';
 import DrawerNavigatorRouter from './DrawerNavigatorRouter';
 // import BlankPage from '../components/blankPage';
@@ -41,6 +42,9 @@ const MainStackRouter = StackNavigator({
     navigationOptions: {
       header: null,
     },
+  },
+  NavOption: {
+    screen: NavOptionScreen,
   },
 });
 

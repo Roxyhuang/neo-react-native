@@ -19,7 +19,7 @@ class DrawerContainerScreen extends React.Component {
                title="Open"
            />
            <Button
-               onPress={() => this.props.navigation.goBack('Home')}
+               onPress={() => this.props.navigation.goBack()}
                title="Go back home"
            />
          </View>
