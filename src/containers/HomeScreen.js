@@ -1,9 +1,10 @@
 import React from 'react';
 import {StyleSheet, View, Text, Button} from 'react-native';
+import { Actions } from 'react-native-router-flux';
 
 class HomeScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
-    console.log(navigation);
+    // console.log(navigation);
     const title = 'Home';
     return { title };
   };
@@ -22,7 +23,7 @@ class HomeScreen extends React.Component {
 
   render() {
     const { navigate } = this.props.navigation;
-    console.log(this.props.navigation.state);
+    // console.log(this.props.navigation.state);
     return (
       <View>
         <Text>Home</Text>
@@ -33,7 +34,7 @@ class HomeScreen extends React.Component {
           accessibilityLabel="Learn more about this purple button"
         />
         <Button
-            onPress={() => navigate('Redux')}
+            onPress={() => Actions.jump('Redux')}
             title="Redux"
             color="#841584"
             accessibilityLabel="Learn more about this purple button"
