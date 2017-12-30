@@ -26,7 +26,7 @@ const reducerCreate = params => {
   };
 };
 
-const prefix = Platform.OS === 'android' ? 'mychat://mychat/' : 'mychat://';
+const prefix = Platform.OS === 'android' ? 'neorn://neorn/' : 'neorn://';
 
 const MainRouter = () => (
     <Router
