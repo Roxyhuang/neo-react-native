@@ -15,7 +15,6 @@ import {
 } from 'react-native-router-flux';
 
 import HomeScreen from '../containers/HomeScreen';
-import IndexScreen from '../containers/IndexScreen';
 import ReduxScreen from '../containers/ReduxScreen';
 
 const reducerCreate = params => {
@@ -36,12 +35,10 @@ const MainRouter = () => (
       <Tabs>
         <Stack key="root">
           <Scene key="Home" component={HomeScreen} title="Home" path="home" />
-          <Scene key="Index" component={IndexScreen} title="Index" />
           <Scene key="Redux" component={ReduxScreen} title="Redux" path="redux" />
         </Stack>
         <Stack key="aaa">
           <Scene key="Home" component={HomeScreen} title="Home" />
-          <Scene key="Index" component={IndexScreen} title="Index" />
           <Scene key="Redux" component={ReduxScreen} title="Redux" />
         </Stack>
       </Tabs>
